@@ -3,7 +3,7 @@ from tkinter.ttk import *
 import random
 from time import strftime
 import time
-from tkcalendar import Calendar
+
 
 x1 = 250
 y1 = 10
@@ -41,14 +41,7 @@ def trapinski():
     global g
     if g == 1:
         
-        global x1
-        global y1
-        global x2
-        global y2
-        global x3
-        global y3
-        global x
-        global y
+        global x1, y1, x2, y2, x3, y3, x, y
         
         i = random.randint(1,3)
 
@@ -66,24 +59,7 @@ def trapinski():
         canvas.after(15, trapinski)
     
     if g == 2:
-        global a1
-        global b1
-        global a2
-        global b2
-        global a3
-        global b3
-        global a4
-        global b4
-        global a5
-        global b5
-        global a6
-        global b6
-        global a7
-        global b7
-        global a8
-        global b8
-        global a
-        global b
+        global a1, b1, a2, b2, a3, b3, a4, b4, a5, b5, a6, b6, a7, a8, b8, a, b
         
         global m
         
